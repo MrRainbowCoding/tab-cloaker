@@ -1,0 +1,25 @@
+{
+  "name": "Tab Cloaker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Cloak your tab to make it look like something else!",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Tab Cloaker",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "scripting",
+    "debugger"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+}
